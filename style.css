@@ -1,0 +1,84 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  /*! right: 0; */
+  /*! position: absolute; */
+  font-family: Helvetica, sans-serif;
+}
+
+li {
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+
+i {
+    vertical-align: middle;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#nav-bar {
+    /*! position: absolute; */
+    /*! margin-right:0.5em; */
+    z-index: 0;
+    /*! right: 0; */
+    align-self: flex-end;
+    /*! width: 100%; */
+    /*! padding: 10 10 10 10; */
+}
+
+#google-logo {
+    z-index: 1;
+    /*! justify-self: flex-end; */
+    margin-top: auto;
+}
+
+#search-field {
+    z-index: 2;
+    margin: 20px 0 20px 0;
+    /*! width: 100%; */
+    /*! align-self: center; */
+}
+
+#search-button {
+    /*! z-index: 3; */
+    /*! margin-bottom: auto; */
+}
+
+.footer {
+    z-index: 4;
+}
+
+/* icon | https://fonts.googleapis.com/icon?family=Material+Icons */
+
+.material-icons {
+  margin-left: 10px;
+}
+
+#input {
+}
+.search-button {
+z-index: 3;
+margin-bottom: auto;
+}
+
+.search-field {
+z-index: 2;
+width: 100%;
+border: gray;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+
+#input-field {
+padding: 20px 0 20px 0;
+}
